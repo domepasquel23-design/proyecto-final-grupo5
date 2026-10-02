@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Estructura Semántica y Tabla</title>
+    <style>
+        /* Estilos básicos opcionales para que la tabla y la página se vean ordenadas */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header, nav, main, section, footer {
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid #ccc;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav li {
+            display: inline;
+            margin-right: 15px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado principal -->
+    <header>
+        <h1>Mi Sitio Web de Ejemplo</h1>
+    </header>
+
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#datos">Datos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main>
+        <section id="datos">
+            <h2>Listado de Empleados (Datos Ficticios)</h2>
+            <p>A continuación se muestra una tabla con información de ejemplo:</p>
+            
+            <!-- Tabla con encabezados claros y 5 filas de datos -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nombre</th>
+                        <th>Puesto</th>
+                        <th>Departamento</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>001</td>
+                        <td>Ana Pérez</td>
+                        <td>Desarrolladora Web</td>
+                        <td>Tecnología</td>
+                    </tr>
+                    <tr>
+                        <td>002</td>
+                        <td>Carlos Gómez</td>
+                        <td>Diseñador UX</td>
+                        <td>Producto</td>
+                    </tr>
+                    <tr>
+                        <td>003</td>
+                        <td>María Rodríguez</td>
+                        <td>Gerente de Ventas</td>
+                        <td>Comercial</td>
+                    </tr>
+                    <tr>
+                        <td>004</td>
+                        <td>Luis Torres</td>
+                        <td>Especialista de Soporte</td>
+                        <td>Tecnología</td>
+                    </tr>
+                    <tr>
+                        <td>005</td>
+                        <td>Sofía Ramírez</td>
+                        <td>Contadora</td>
+                        <td>Finanzas</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2026 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
